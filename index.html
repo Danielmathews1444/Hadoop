@@ -44,7 +44,7 @@
                 <button class="code-copy">Copy</button>
             </div>
             <p>Output: </p>
-            <img src="/Images/1.png" alt="Step 1 Screenshot" />
+            <img src="Images/1.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;"/>
             <h2>Step 3: Install SSH</h2>
             <p>SSH (Secure Shell) is crucial for Hadoop, as it facilitates secure communication between nodes in the
                 Hadoop cluster. This is essential for maintaining data integrity and confidentiality and enabling
@@ -62,7 +62,7 @@
                 <button class="code-copy">Copy</button>
             </div>
             <p>Output: </p>
-            <img src="/Images/2.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
+            <img src="Images/2.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
 
             <h2>Step 5: Switch User</h2>
             <p>Switch to the newly created 'hadoop' user using the following command:</p>
@@ -80,7 +80,7 @@
                 <button class="code-copy">Copy</button>
             </div>
             <p>Output: </p>
-            <img src="/Images/3.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
+            <img src="Images/3.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
             <h2>Step 7: Set Permissions</h2>
             <p>Copy the generated public key to the authorized key file and set the proper permissions:</p>
             <div class="neu">
@@ -97,7 +97,7 @@
                 <button class="code-copy">Copy</button>
             </div>
             <p>Output: </p>
-            <img src="/Images/4.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
+            <img src="Images/4.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
 
             <h2>Step 9: Switch User</h2>
             <p>Switch to the 'hadoop' user again using the following command:</p>
@@ -145,7 +145,7 @@ export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
             <button class="code-copy">Copy</button>
             </div>
             <p>Output: </p>
-            <img src="/Images/5.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
+            <img src="Images/5.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
 
             <p>Load the above configuration into the current environment:</p>
             <div class="neu">
@@ -165,7 +165,7 @@ export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
                 <button class="code-copy">Copy</button>
             </div>
             <p>Output: </p>
-            <img src="/Images/6.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
+            <img src="Images/6.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
             <h2>Step 11: Configuring Hadoop</h2>
             <p>Create the namenode and datanode directories within the 'hadoop' user's home directory using the
                 following commands:</p>
@@ -191,7 +191,7 @@ export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
 <button class="code-copy">Copy</button>            
 </div>
 <p>Output: </p>
-            <img src="/Images/7.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
+            <img src="Images/7.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
             <p>Save and close the file. Then, edit the 'hdfs-site.xml' file:</p>
             <p>Next, edit the 'hdfs-site.xml' file and replace the name with your system hostname:</p>
             <div class="neu">
@@ -217,7 +217,7 @@ export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
 <button class="code-copy">Copy</button>            
 </div>
 <p>Output: </p>
-            <img src="/Images/8.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
+            <img src="Images/8.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
             <p>Save and close the file. Then, edit the 'mapred-site.xml' file:</p>
             <div class="neu">
                 <pre><code>nano $HADOOP_HOME/etc/hadoop/mapred-site.xml</code></pre>
@@ -242,7 +242,7 @@ export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
                 <button class="code-copy">Copy</button>
             </div>
             <p>Output: </p>
-            <img src="/Images/11.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
+            <img src="Images/11.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
             <p>Finally, edit the 'yarn-site.xml' file:</p>
             <div class="neu">
                 <pre><code>nano $HADOOP_HOME/etc/hadoop/yarn-site.xml</code></pre>
@@ -259,7 +259,7 @@ export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
                 <button class="code-copy">Copy</button>
             </div>
             <p>Output: </p>
-            <img src="/Images/12.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
+            <img src="Images/12.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
             <h2>Step 12: Start Hadoop Cluster</h2>
             <p>Before starting the Hadoop cluster, you need to format the Namenode as the 'hadoop' user. Format the
                 Hadoop Namenode with the following command:</p>
@@ -268,7 +268,7 @@ export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
                 <button class="code-copy">Copy</button>
             </div>
             <p>Output: </p>
-            <img src="/Images/9.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
+            <img src="Images/9.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
 
             <p>Once the Namenode directory is successfully formatted with the HDFS file system, you will see the message
                 "Storage directory /home/hadoop/hadoopdata/hdfs/namenode has been successfully formatted." Start the
@@ -278,7 +278,7 @@ export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
                 <button class="code-copy">Copy</button>
             </div>
             <p>Output: </p>
-            <img src="/Images/13.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
+            <img src="Images/13.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
 
             <p>You can check the status of all Hadoop services using the command:</p>
             <div class="neu">
@@ -286,7 +286,7 @@ export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
                 <button class="code-copy">Copy</button>
             </div>
             <p>Output: </p>
-            <img src="/Images/10.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
+            <img src="Images/10.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
             <h2>Step 13: Access Hadoop Namenode and Resource Manager</h2>
             <p>First, determine your IP address by running:</p>
             <div class="neu">
@@ -304,10 +304,10 @@ export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
                     target="_blank">http://your-server-ip:9870</a>. Replace 'your-server-ip' with your actual IP
                 address. You should see the Namenode web interface.</p>
                 <p>Output: </p>
-            <img src="/Images/14.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
+            <img src="Images/14.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
                 <p>To access the Resource Manager, open your web browser and visit the URL http://your-server-ip:8088. You should see the following screen:</p>
                 <p>Output: </p>
-            <img src="/Images/15.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
+            <img src="Images/15.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
                 <h2>Step 14: Verify the Hadoop Cluster</h2>
                 <p>The Hadoop cluster is installed and configured. Next, we will create some directories in the HDFS filesystem to test Hadoop. Create directories in the HDFS filesystem using the following command:</p>
                 <div class="neu">
@@ -327,7 +327,7 @@ export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
                 </div>
             
                 <p>You should get the following output:</p>
-            <img src="/Images/16.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
+            <img src="Images/16.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
                 <p>Also, put some files into the Hadoop file system. For example, put log files from the host machine into the Hadoop file system:</p>
                 <div class="neu">
                     <pre><code>hdfs dfs -put /var/log/* /logs/</code></pre>
@@ -335,7 +335,7 @@ export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
                 </div>
             
                 <p>You can also verify the above files and directories in the Hadoop web interface. Go to the web interface, click on Utilities => Browse the file system. You should see the directories you created earlier on the following screen:</p>
-            <img src="/Images/17.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
+            <img src="Images/17.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
                 <h2>Step 15: To Stop Hadoop Services</h2>
                 <p>To stop the Hadoop service, run the following command as a Hadoop user:</p>
                 <div class="neu">
@@ -343,7 +343,7 @@ export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
                     <button class="code-copy">Copy</button>
                 </div>
                 <p>Output: </p>
-            <img src="/Images/18.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
+            <img src="Images/18.png" alt="Step 1 Screenshot" style="max-width: 100%; height: auto;" />
             
                 <p>In summary, you've learned how to install Hadoop on Ubuntu. Now, you're ready to unlock the potential of big data analytics. Happy exploring!</p>
             
